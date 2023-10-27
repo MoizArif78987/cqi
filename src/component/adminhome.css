@@ -17,59 +17,87 @@
     align-items: center;
     justify-content: space-around;
 }
+
+
 .adminHome .navContainer .containerhead{
-    position: relative;
-    height: 20%;
+    height:30%;
     width: 100%;
-    margin: 0;
-}
-.navContainer .containerhead .profpic{
-    position: relative;
-    height: 10%;
-    width: 5%;
-    border-radius: 150px;
-    border: 1px solid rgba(48, 43, 146, 0.7);
-}
-.navContainer .containerhead .name{
-    position: relative;
-    font-size: 22px;
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;;
+    display: flex;
 }
 .adminHome .navContainer .containerhead .logo{
-    position: relative;
     height: 100%;
+    width: 20%;
+}
+.adminHome .navContainer .containerhead .logo img{
+    height: 90%;
     width: auto;
-    background-image: url(../images/uet-logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 .adminHome .navContainer .containerhead .heading{
-    text-align: center;
-    margin-top: 5%;
-    font-size: 50px;
-    letter-spacing: 5px;
+    width: 60%;
+    height: 100%;
     color: white;
-    width: 70%;
-    font-weight: bold;
 }
+.adminHome .navContainer .containerhead .heading h1{
+    font-size: 60px;
+    color: white;
+    font-weight:900;
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: overline;
+}
+.adminHome .navContainer .containerhead .adminInfo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+}
+.adminHome .navContainer .containerhead .adminInfo .profpic{
+    height: 100%;
+    width: 30%;
+}
+.adminHome .navContainer .containerhead .adminInfo .profpic img{
+    width: 100%;
+    height: auto;
+    margin-top: 50%;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.adminHome .navContainer .containerhead .adminInfo .info{
+    height: 100%;
+    width: 70%;
+}
+.adminHome .navContainer .containerhead .adminInfo .info .name{
+    height: 100%;
+    width: 100%;
+}
+.adminHome .navContainer .containerhead .adminInfo .info .name h3{
+    margin: 0%;
+    color: white;
+}
+
+
+
 
 
 .adminHome .navContainer .container{
-    position: relative;
-    top: 10%;
     height: 70%;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
     align-items: center;
+    justify-content: center;
 }
 .adminHome .navContainer .container .navCard{
-    position: relative;
-    height: 65%;
-    width: 20.5%;
+    width: 85%;
+    height: 90%;
     background-color: white;
-    border-radius: 250px;
+    border-radius: 49%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .adminHome .navContainer .container .navCard:hover{
     box-shadow: -10px 10px 10px 5px rgb(41, 37, 123);
@@ -77,34 +105,16 @@
 .adminHome .navContainer .container .navCard .cardContainer{
     height: 90%;
     width: 90%;
-    margin-top: 3%;
-    margin-left: 3.5%;
-    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 49%;
     border: 5px solid rgba(48, 43, 146, 0.7);
-}
-.adminHome .navContainer .container .navCard .cardContainer h1{
-    text-align: center;
-    margin-top: 35%;
-    font-size: 45px;
-    letter-spacing: 5px;
-    color: rgba(48, 43, 146, 0.7);
 }
 
 @media only screen and (max-width:650px){
     .adminHome .navContainer{
         display: block;
         height: 95%;
-    }
-    .adminHome .navContainer .container .navCard{
-        height: 30%;
-        width: 70%;
-        margin-left: 10%;
-        margin-top: 5%;
-    }
-    .adminHome .navContainer .container .navCard .cardContainer{
-        margin-top: 3%;
-        margin-left: 3.5%;
-        border-radius: 150px;
-        border: 5px solid rgba(48, 43, 146, 0.7);
     }
 }

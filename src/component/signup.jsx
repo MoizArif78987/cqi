@@ -42,7 +42,7 @@ export default function Signup() {
             <div className="login-input">
               <input type="email" name="email" onChange={handleEmailInputforLogin} placeholder="Enter Email Here" />
               <input type="password" name="password" onChange={handlePasswordInputforLogin} placeholder="Enter Your Password Here" />
-              <Link to='/'><button className="login-button" onClick={onLoginClick}>Log In</button></Link>
+              <Link to='/adminhome'><button className="login-button" onClick={onLoginClick}>Log In</button></Link>
             </div>
             <div className="links">
               <Link

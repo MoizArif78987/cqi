@@ -24,8 +24,9 @@ export default function Admin() {
           <div className='desc'>This is cards description</div>
           </div>
       </div>
-
+      <Link to='addform' style={{textDecoration:'none'}}>
       <button className='newformbtn'>Add new Form</button>
+      </Link>
     </div>
   )
 }

@@ -19,26 +19,26 @@ export default function Form() {
             </div>
             <div className="ProgressBars">
               <div class="bar-bg">
-                {percentage >= 20 ? <div class="bar-fill" id="1" style={{backgroundColor: "#159bc7"}} onClick={()=>{setPercentage(20)}}  >
+                {percentage >= 20 ? <div class="bar-fill" id="1" style={{backgroundColor: "#5E5DA8"}} onClick={()=>{setPercentage(20)}}  >
                 </div> : <div class="bar-fill" id="1" style={{backgroundColor: "transparent"}} onClick={()=>{setPercentage(20)}}  >
                 </div> }
 
-                {percentage >= 40 ? <div class="bar-fill" id="2" style={{backgroundColor: "#159bc7"}} onClick={()=>{setPercentage(40)}}  >
+                {percentage >= 40 ? <div class="bar-fill" id="2" style={{backgroundColor: "#5E5DA8"}} onClick={()=>{setPercentage(40)}}  >
                 </div> : <div class="bar-fill" id="2" style={{backgroundColor: "transparent"}} onClick={()=>{setPercentage(40)}}  >
                 </div> }
 
-                {percentage >= 60 ? <div class="bar-fill" id="3" style={{backgroundColor: "#159bc7"}} onClick={()=>{setPercentage(60)}}  >
+                {percentage >= 60 ? <div class="bar-fill" id="3" style={{backgroundColor: "#5E5DA8"}} onClick={()=>{setPercentage(60)}}  >
                 </div> : <div class="bar-fill" id="3" style={{backgroundColor: "transparent"}} onClick={()=>{setPercentage(60)}}  >
                 </div> }
 
-                {percentage >= 80 ? <div class="bar-fill" id="4" style={{backgroundColor: "#159bc7"}} onClick={()=>{setPercentage(80)}}  >
+                {percentage >= 80 ? <div class="bar-fill" id="4" style={{backgroundColor: "#5E5DA8"}} onClick={()=>{setPercentage(80)}}  >
                 </div> : <div class="bar-fill" id="4" style={{backgroundColor: "transparent"}} onClick={()=>{setPercentage(80)}}  >
                 </div> }
 
-                {percentage >= 100 ? <div class="bar-fill" id="5" style={{backgroundColor: "#159bc7"}} onClick={()=>{setPercentage(100)}}  >
+                {percentage >= 100 ? <div class="bar-fill" id="5" style={{backgroundColor: "#5E5DA8"}} onClick={()=>{setPercentage(100)}}  >
                 </div> : <div class="bar-fill" id="5" style={{backgroundColor: "transparent"}} onClick={()=>{setPercentage(100)}}  >
                 </div> }
-                
+              
               </div>
               <div className="Percentage">
                 <h3>{percentage}%</h3>

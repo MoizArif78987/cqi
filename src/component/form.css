@@ -52,7 +52,7 @@
 .FormPage .FormContainer .FormQuestions .ProgressBars .bar-bg {
     width: 80%;
     height: 20px;
-    background-color: #080873;
+    background-color: #c4c4f5;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     cursor: pointer;

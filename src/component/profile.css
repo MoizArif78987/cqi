@@ -4,37 +4,38 @@
     width: 100%;
     background-color: white;
 }
-.uploadpic{
+.prof .uploadpic{
     margin-left: 8%;
     margin-top: 15%;
     position: fixed;
 }
-.imgg {
+.prof .uploadpic .imgg {
     margin-left: 1%;
     margin-top: 0%;
     position: fixed;
     height: 50%;
     width: 25%;
-    background-image: url(../images/pfp-icon.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 150px;
-    border: 1px solid white;
 }
-.upimg{
+.prof .uploadpic .imgg img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.prof .uploadpic .upimg{
     margin-left: 7%;
-    margin-top: 24%;
+    margin-top: 26%;
     position: fixed;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
-.profbox{
+.prof .profbox{
     margin-top: 20%;
     margin-left: 50%;
     margin-bottom: 2%;
 }
-.profbtn{
+.prof .profbox .profbtn{
     color: white;
     font-size: 20px;
     font-weight: 500;
@@ -49,7 +50,7 @@
     overflow: hidden;
     font-size: 30px;
 }
-.profbtn::before
+.prof .profbox .profbtn::before
 {
     content: '';
     position: absolute;
@@ -64,11 +65,11 @@
     transform: translateX(-100%);
     transition: all .3s linear;
 }
-.profbtn:hover:before{
+.prof .profbox .profbtn:hover:before{
     transform: translateX(0%);
     z-index: -1;
 }
-.profbtn:hover{
+.prof .profbox .profbtn:hover{
     color:rgba(48, 43, 146, 0.7);
     border-color: white;
 }
